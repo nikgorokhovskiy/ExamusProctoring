@@ -27,9 +27,8 @@ let package = Package(
             dependencies: ["ExamusProctoring"]
         ),
         .binaryTarget(
-            name: "ExamusProctoring",
-            url: "https://github.com/nikgorokhovskiy/ExamusProctoringFramework/raw/main/ExamusProctoring.xcframework.zip",
-            checksum: "f6653863523bc9a65eebf69c0edf14b56e3cba93f92013eedac4f20bd608e201"
+            name: "ExamusProctoringBinary",
+            path: "~/Sources/ExamusProctoringBinary/AlemiraProctoringSDK.xcframework"
         ),
         .testTarget(
             name: "ExamusProctoringTests",
